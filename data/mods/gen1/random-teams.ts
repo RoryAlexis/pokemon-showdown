@@ -130,8 +130,8 @@ export class RandomGen1Teams extends RandomGen2Teams {
 		const seed = this.prng.seed;
 
 		const handicapMons = ['magikarp', 'weedle', 'kakuna', 'caterpie', 'metapod'];
-		const nuTiers = ['UU', 'UUBL', 'NFE', 'LC', 'NU'];
-		const uuTiers = ['NFE', 'UU', 'UUBL', 'NU'];
+		const nuTiers = ['UU', 'UUBL', 'NFE', 'LC', 'NU', 'NUBL'];
+		const uuTiers = ['NFE', 'UU', 'UUBL', 'NU', 'NUBL'];
 
 		const pokemonPool = [];
 		/** Pokémon that are not wholly incompatible with the team, but still pretty bad */
